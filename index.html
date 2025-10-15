@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymTech SENA - Presentación</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="theme-dark">
+    <!-- Header fijo -->
+    <header class="site-header" role="banner">
+      <div class="header-inner">
+        <div class="branding">
+          <img src="images/logo.png" alt="Logo GymTech SENA" class="logo" />
+          <span class="project-name">GymTech SENA</span>
+        </div>
+        <div class="actions">
+          <button id="pdfViewerBtn" class="btn-pdf" aria-label="Ver IEEE" title="Ver IEEE">
+            <i class="bi bi-file-earmark-pdf"></i>
+            <span class="label">Ver IEEE</span>
+          </button>
+          <button id="themeToggle" class="toggle-theme" aria-label="Cambiar tema" title="Cambiar tema">
+            <span class="sun">☀️</span>
+            <span class="moon">🌙</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contenido principal con vistas -->
+    <main id="content" class="view-container" role="main">
+      <section id="inicio" class="view view-hero" data-view="inicio">
+        <div class="hero">
+          <div class="hero-left">
+            <h1 class="hero-title">Transforma tu <span class="accent">Gimnasio</span> con Tecnología</h1>
+            <p class="hero-subtitle">Soluciones innovadoras para el manejo y control de tu centro deportivo</p>
+            <div class="team-card">
+              <div class="team-card-header">
+                <i class="bi bi-people-fill"></i>
+                <h2 class="team-title">Integrantes</h2>
+              </div>
+              <ul class="team-list">
+                <li class="team-item"><span class="avatar"><i class="bi bi-person-badge"></i></span><span class="name">Andres Felipe Rivera Sanchez</span></li>
+                <li class="team-item"><span class="avatar"><i class="bi bi-person-badge"></i></span><span class="name">Daniel Salazar Loaiza</span></li>
+                <li class="team-item"><span class="avatar"><i class="bi bi-person-badge"></i></span><span class="name">Jhoan Sebastian Zuluaga</span></li>
+                <li class="team-item"><span class="avatar"><i class="bi bi-person-badge"></i></span><span class="name">Julian David Marulanda Leon</span></li>
+              </ul>
+            </div>
+            <div class="hero-ctas">
+              <a href="#introduccion" class="btn cta-primary">Conoce Más</a>
+              <a href="#diagrama-clases" class="btn cta-secondary">Ver Diagramas</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <figure class="hero-image-wrap" id="heroImageWrap" aria-hidden="true">
+              <img src="images/gym.jpg" alt="Imagen del gimnasio" class="hero-image" id="heroImage" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- Funcionalidad del Proyecto -->
+      <section id="funcionalidad" class="view view-intro view-feature" data-view="funcionalidad" hidden>
+        <h1 class="section-title"><i class="bi bi-gear-wide-connected title-icon" aria-hidden="true"></i> Funcionalidad del Proyecto</h1>
+
+        <div class="feature-card">
+          <!-- Herramientas utilizadas -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-tools"></i> Herramientas utilizadas</h2>
+            <div class="card-grid" aria-label="Herramientas utilizadas">
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-code-slash"></i></div>
+                <div class="card-title">Visual Studio Code</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-server"></i></div>
+                <div class="card-title">XAMPP</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-database"></i></div>
+                <div class="card-title">DBeaver</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-database"></i></div>
+                <div class="card-title">MySQL Workbench</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-box"></i></div>
+                <div class="card-title">Composer</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tecnologías Implementadas -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-cpu"></i> Tecnologías Implementadas</h2>
+            <div class="card-grid" aria-label="Tecnologías Implementadas">
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-filetype-html"></i></div>
+                <div class="card-title">HTML</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-filetype-css"></i></div>
+                <div class="card-title">CSS</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-filetype-js"></i></div>
+                <div class="card-title">JavaScript</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-filetype-php"></i></div>
+                <div class="card-title">PHP</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-database"></i></div>
+                <div class="card-title">PostgreSQL</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-vector-pen"></i></div>
+                <div class="card-title">Figma</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-git"></i></div>
+                <div class="card-title">Git</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-github"></i></div>
+                <div class="card-title">GitHub</div>
+              </div>
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-phone"></i></div>
+                <div class="card-title">Flutter</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Librerías utilizadas -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-box-seam"></i> Librerías utilizadas</h2>
+            <div class="card-grid" aria-label="Librerías utilizadas">
+              <div class="card-item" role="button" tabindex="0">
+                <div class="card-icon"><i class="bi bi-envelope-check"></i></div>
+                <div class="card-title">PHPMailer</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metodología -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-diagram-3"></i> Metodología</h2>
+            <div class="methodology">
+              <h3 class="tech-title"><i class="bi bi-collection"></i> Metodología Scrum</h3>
+              <ol class="scrum-list">
+                <li class="scrum-step">
+                  <span class="step-number">1</span>
+                  <div class="step-body"><span class="step-title"><i class="bi bi-people"></i> Roles definidos</span><span class="step-desc">Product Owner, Scrum Master y equipo de desarrollo.</span></div>
+                </li>
+                <li class="scrum-step">
+                  <span class="step-number">2</span>
+                  <div class="step-body"><span class="step-title"><i class="bi bi-speedometer2"></i> Sprints</span><span class="step-desc">Ciclos cortos para entregar avances funcionales.</span></div>
+                </li>
+                <li class="scrum-step">
+                  <span class="step-number">3</span>
+                  <div class="step-body"><span class="step-title"><i class="bi bi-calendar-event"></i> Daily Scrum</span><span class="step-desc">Reuniones diarias para revisar el progreso.</span></div>
+                </li>
+                <li class="scrum-step">
+                  <span class="step-number">4</span>
+                  <div class="step-body"><span class="step-title"><i class="bi bi-arrow-repeat"></i> Revisión y retrospectiva</span><span class="step-desc">Evaluar entregas y mejorar el proceso.</span></div>
+                </li>
+                <li class="scrum-step">
+                  <span class="step-number">5</span>
+                  <div class="step-body"><span class="step-title"><i class="bi bi-list-check"></i> Backlog priorizado</span><span class="step-desc">Lista de tareas ordenadas por prioridad.</span></div>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Patrón de Arquitectura del Software -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-diagram-3"></i> Patrón de Arquitectura del Software</h2>
+            <p class="mt-text">
+              <strong>MVC (Modelo-Vista-Controlador):</strong> Es una arquitectura de software que separa la lógica del negocio, la interfaz de usuario y el control del flujo de la aplicación, permitiendo un desarrollo más organizado, escalable y fácil de mantener.
+            </p>
+            <figure class="feature-figure">
+              <img src="images/MVC.jpg" alt="Patrón MVC" />
+              <figcaption>Diagrama MVC</figcaption>
+            </figure>
+          </div>
+
+          <!-- Seguridad de la aplicación -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-shield-lock"></i> Seguridad de la aplicación</h2>
+            <ul class="icon-list security-list">
+              <li><i class="bi bi-shield-check"></i> <strong>Modelo Vista Controlador:</strong> Se evita que la lógica sensible (como validaciones, autenticación, conexión a la base de datos) esté expuesta en las vistas, que son accesibles al usuario. Esto reduce el riesgo de manipulación directa del código o de datos.</li>
+              <li><i class="bi bi-database-lock"></i> <strong>Conexión a la BD con PDO:</strong> Prepara las consultas antes de ejecutarlas lo que evita inyecciones SQL.</li>
+              <li><i class="bi bi-slash-circle"></i> <strong>Bloque de enrutamiento por URL:</strong> No se permite enrutamiento a través de la URL sin haber iniciado sesión.</li>
+              <li><i class="bi bi-braces"></i> <strong>PDO:</strong> Uso de programación orientada a objetos para todo el manejo del software.</li>
+              <li><i class="bi bi-lock"></i> <strong>Sin registro de usuarios en el Login:</strong> La creación de los usuarios se maneja de manera interna lo que impide que cualquier persona pueda registrarse libremente.</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <!-- Tabulación de información -->
+      <section id="tabulacion" class="view view-intro" data-view="tabulacion" hidden>
+        <h1 class="section-title"><i class="bi bi-ui-checks-grid title-icon" aria-hidden="true"></i> Tabulación de información</h1>
+        <div class="cards-grid qa-grid" aria-label="Preguntas y respuestas">
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-question-circle"></i></div>
+            <h3 class="card-title">¿Cuál es el objetivo principal del sistema que se desea desarrollar?</h3>
+            <p>Crear una herramienta software para mejorar la gestión y el control de los aprendices y sus horarios en el ambiente del gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-exclamation-triangle"></i></div>
+            <h3 class="card-title">¿Qué problemas actuales enfrenta la organización que este sistema busca resolver?</h3>
+            <p>Presenta dificultades por no contar con un sistema digital unificado, lo que genera pérdida de información, duplicidad de tareas y errores. Además, la falta de una plataforma multiplataforma limita el acceso y afecta la experiencia de usuarios y entrenadores.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-people"></i></div>
+            <h3 class="card-title">¿Cuál es el público objetivo del sistema?</h3>
+            <p>Los aprendices del SENA.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-graph-up"></i></div>
+            <h3 class="card-title">¿Qué beneficios espera obtener la organización con este sistema?</h3>
+            <p>Reducir el uso de papel y materiales físicos al digitalizar los procesos del gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-diagram-3"></i></div>
+            <h3 class="card-title">¿Cuál es el alcance inicial del proyecto?</h3>
+            <p>Promover un acceso más organizado al gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-gear"></i></div>
+            <h3 class="card-title">¿Qué funcionalidades específicas debe incluir el sistema?</h3>
+            <p>Registro de hora de entrada y salida, creación de usuarios, registros de control de progreso, gestión de roles, gestión de rutinas y ejercicios.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-input-cursor-text"></i></div>
+            <h3 class="card-title">¿Cómo debe manejar el sistema los datos de entrada?</h3>
+            <p>El sistema debe verificar que los campos obligatorios estén completos.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
+            <h3 class="card-title">¿Qué resultados o salidas debe generar el sistema?</h3>
+            <p>Verificación de ingreso de la persona que entrará al gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-journal-check"></i></div>
+            <h3 class="card-title">¿Cómo deben registrarse las operaciones realizadas por los usuarios?</h3>
+            <p>Los aprendices escanearan un código QR para que el encargado lo escanee y le pueda dar entrada al gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-building"></i></div>
+            <h3 class="card-title">¿Para qué centro de formación se solicita el software?</h3>
+            <p>El software se solicitaría para todo el centro de formación que hacen parte del SENA.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-card-list"></i></div>
+            <h3 class="card-title">¿Qué datos se necesita del aprendiz?</h3>
+            <p>Se necesitarán datos como el nombre completo del aprendiz, tipo de documento, número de documento de identidad, programa de formación, centro de formación, tipo de sangre, EPS, email, número telefónico, entre otros datos relevantes.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-people"></i></div>
+            <h3 class="card-title">¿Cuántas personas pueden ingresar al gimnasio al mismo tiempo?</h3>
+            <p>Un total de 30 personas.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-people"></i></div>
+            <h3 class="card-title">¿Quiénes pueden tener acceso al software?</h3>
+            <p>Los aprendices, entrenadores y el administrador del gimnasio.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-qr-code"></i></div>
+            <h3 class="card-title">¿Qué funciones requiere el software?</h3>
+            <p>El software debe permitir el ingreso mediante código QR para verificar que la persona que desea ingresar sea el mismo registrado en la aplicación.</p>
+          </article>
+          <article class="intro-card qa-card">
+            <div class="card-icon"><i class="bi bi-laptop"></i></div>
+            <h3 class="card-title">¿Para qué sistemas operativos se implementará el software?</h3>
+            <p>El software se dirigirá a cualquier sistema operativo y dispositivo que cuente con un navegador y acceso a internet.</p>
+          </article>
+        </div>
+      </section>
+      <section id="justificacion" class="view view-intro" data-view="justificacion" hidden>
+        <h1 class="section-title"><i class="bi bi-clipboard-check title-icon" aria-hidden="true"></i> Justificación</h1>
+        <div class="intro-card mt-card just-card">
+          <div class="mt-layout">
+            <div class="mt-content">
+              <p class="mt-text">
+                El gimnasio del SENA Caldas requiere modernización, ya que muchas tareas se realizan manualmente. GymTech SENA surge como una solución digital para optimizar la gestión, mejorar la experiencia de los usuarios y fomentar el bienestar institucional.
+              </p>
+              <div class="mt-chips" aria-label="Palabras clave de la justificación">
+                <span class="chip"><i class="bi bi-check2-all"></i> Optimización</span>
+                <span class="chip"><i class="bi bi-check2-all"></i> Experiencia de Usuario</span>
+                <span class="chip"><i class="bi bi-check2-all"></i> Bienestar</span>
+                <span class="chip"><i class="bi bi-check2-all"></i> Modernización</span>
+              </div>
+            </div>
+            <div class="mt-illustration" aria-hidden="true">
+              <div class="mt-figure">
+                <i class="bi bi-check2-all"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="planteamiento" class="view view-intro" data-view="planteamiento" hidden>
+        <h1 class="section-title"><i class="bi bi-question-diamond-fill title-icon" aria-hidden="true"></i> Planteamiento del Problema</h1>
+        <div class="intro-card mt-card">
+          <div class="mt-layout">
+            <div class="mt-illustration" aria-hidden="true">
+              <div class="mt-figure">
+                <i class="bi bi-question-diamond-fill"></i>
+              </div>
+            </div>
+            <div class="mt-content">
+              <p class="mt-text">
+                El gimnasio del Centro de Procesos Industriales del SENA Caldas presenta dificultades por no contar con un sistema digital unificado, lo que genera pérdida de información, duplicidad de tareas y errores. Además, la falta de una plataforma multiplataforma limita el acceso y afecta la experiencia de usuarios y entrenadores.
+              </p>
+              <div class="mt-chips" aria-label="Palabras clave de la justificación">
+                <span class="chip"><i class="bi bi-link-45deg"></i> Sistema Unificado</span>
+                <span class="chip"><i class="bi bi-device-hdd"></i> Multiplataforma</span>
+                <span class="chip"><i class="bi bi-bug"></i> Reducción de Errores</span>
+                <span class="chip"><i class="bi bi-people"></i> Mejor Experiencia</span>
+                <span class="chip"><i class="bi bi-shield-check"></i> Confiabilidad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="introduccion" class="view view-intro" data-view="introduccion" hidden>
+        <h1 class="section-title"><i class="bi bi-info-circle title-icon" aria-hidden="true"></i> Introducción</h1>
+        <div class="intro-card">
+            <div class="intro-logo-wrap" aria-hidden="true">
+              <img src="images/logo.png" alt="Logo GymTech SENA" class="intro-logo" />
+            </div>
+          <p class="intro-text">
+            GymTech SENA optimiza el uso del gimnasio con una aplicación que gestiona horarios y accesos de forma segura y equitativa. Ofrece un entorno organizado para la comunidad del SENA y mejora la experiencia de los usuarios. Promueve hábitos saludables y el bienestar institucional.
+          </p>
+        </div>
+      </section>
+      <section id="marco-teorico" class="view view-intro" data-view="marco-teorico" hidden>
+        <h1 class="section-title"><i class="bi bi-book title-icon" aria-hidden="true"></i> Marco Teórico</h1>
+        <div class="intro-card mt-card">
+          <div class="mt-layout">
+            <div class="mt-illustration" aria-hidden="true">
+              <div class="mt-figure">
+                <i class="bi bi-book-half"></i>
+              </div>
+            </div>
+            <div class="mt-content">
+              <p class="mt-text">
+                La digitalización optimiza procesos y mejora la experiencia en entornos educativos. En el gimnasio del SENA, una plataforma centralizada ordena acceso y horarios, reduce errores y agiliza la gestión. Con metodologías ágiles, la solución se adapta al usuario y fortalece el bienestar institucional.
+              </p>
+              <div class="mt-chips" aria-label="Conceptos clave">
+                <span class="chip"><i class="bi bi-cpu"></i> Transformación Digital</span>
+                <span class="chip"><i class="bi bi-robot"></i> Automatización</span>
+                <span class="chip"><i class="bi bi-hdd-network"></i> Centralización</span>
+                <span class="chip"><i class="bi bi-graph-up"></i> Eficiencia</span>
+                <span class="chip"><i class="bi bi-people"></i> Experiencia de Usuario</span>
+                <span class="chip"><i class="bi bi-shield-check"></i> Seguridad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="marco-legal" class="view view-intro" data-view="marco-legal" hidden>
+        <h1 class="section-title"><i class="bi bi-file-earmark-text title-icon" aria-hidden="true"></i> Marco Legal</h1>
+        <div class="cards-grid">
+          <article class="intro-card legal-card">
+            <div class="card-icon"><i class="bi bi-clipboard-check"></i></div>
+            <h3 class="card-title">Ley 1341 de 2009</h3>
+            <p>
+              Establece principios y disposiciones sobre la sociedad de la información y promueve el acceso, uso y apropiación de las Tecnologías de la Información y las Comunicaciones (TIC) como herramientas para el desarrollo social y económico del país.
+            </p>
+          </article>
+          <article class="intro-card legal-card">
+            <div class="card-icon"><i class="bi bi-shield-lock"></i></div>
+            <h3 class="card-title">Ley 1581 de 2012</h3>
+            <p>
+              Regula la protección de datos personales. El sistema GymTech deberá garantizar la confidencialidad, seguridad y uso adecuado de la información de los usuarios del gimnasio, en cumplimiento con esta normativa.
+            </p>
+          </article>
+          <article class="intro-card legal-card">
+            <div class="card-icon"><i class="bi bi-database"></i></div>
+            <h3 class="card-title">Ley 1266 de 2008</h3>
+            <p>
+              Regula el habeas data financiero y el manejo de la información en bases de datos, lo cual es relevante para el manejo responsable de la información de los usuarios del sistema.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="objetivos" class="view view-intro" data-view="objetivos" hidden>
+        <h1 class="section-title"><i class="bi bi-flag title-icon" aria-hidden="true"></i> Objetivos</h1>
+        <div class="cards-grid goals-grid">
+          <article class="intro-card goal-card goal-general">
+            <h3 class="card-title">Objetivo General</h3>
+            <div class="mt-layout">
+              <div class="mt-illustration" aria-hidden="true">
+                <div class="mt-figure">
+                  <i class="bi bi-bullseye"></i>
+                </div>
+              </div>
+              <div class="mt-content">
+                <p>
+                  Crear una herramienta software para mejorar la gestión y el control de los aprendices y sus horarios en el ambiente del gimnasio.
+                </p>
+                <div class="mt-chips" aria-label="Pilares del objetivo">
+                  <span class="chip"><i class="bi bi-speedometer2"></i> Eficiencia</span>
+                  <span class="chip"><i class="bi bi-people"></i> Gestión de Aprendices</span>
+                  <span class="chip"><i class="bi bi-clock"></i> Horarios</span>
+                  <span class="chip"><i class="bi bi-shield-check"></i> Acceso Seguro</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="intro-card goal-card goal-specific">
+            <h3 class="card-title">Objetivos Específicos</h3>
+            <ul class="icon-list">
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Mejorar la gestión y el control de los aprendices y sus horarios en el ambiente del gimnasio.</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Integrar y relacionar la información de los aprendices en una plataforma centralizada para facilitar la administración de los miembros.</span></li>
+              <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Establecer un sistema de control de acceso por horarios para organizar el uso del gimnasio y mejorar la distribución del espacio.</span></li>
+            </ul>
+            <div class="mt-chips" aria-label="Aspectos clave de objetivos específicos">
+              <span class="chip"><i class="bi bi-clipboard-check"></i> Gestión</span>
+              <span class="chip"><i class="bi bi-diagram-3"></i> Integración de Datos</span>
+              <span class="chip"><i class="bi bi-hdd-network"></i> Centralización</span>
+              <span class="chip"><i class="bi bi-clock"></i> Control de Horarios</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="necesidades" class="view view-intro" data-view="necesidades" hidden>
+        <h1 class="section-title"><i class="bi bi-list-check title-icon" aria-hidden="true"></i> Necesidades</h1>
+        <div class="cards-grid needs-grid">
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-gear"></i></div>
+            <h3 class="card-title">Optimización de la Gestión</h3>
+            <p>Optimizar la gestión del gimnasio, eliminando procesos manuales y desorganizados.</p>
+          </article>
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-robot"></i></div>
+            <h3 class="card-title">Automatización de Control</h3>
+            <p>Automatizar el control de usuarios, asistencia y asignación de rutinas.</p>
+          </article>
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-person-check"></i></div>
+            <h3 class="card-title">Mejor Experiencia de Usuario</h3>
+            <p>Mejorar la experiencia de los aprendices, brindando acceso ágil, seguro y personalizado.</p>
+          </article>
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-hdd-network"></i></div>
+            <h3 class="card-title">Centralización de Información</h3>
+            <p>Centralizar la información para facilitar la toma de decisiones y reducir errores.</p>
+          </article>
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-cpu"></i></div>
+            <h3 class="card-title">Modernización de Procesos</h3>
+            <p>Modernizar los procesos institucionales, alineados con la transformación digital del SENA.</p>
+          </article>
+          <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-heart-fill"></i></div>
+            <h3 class="card-title">Bienestar y Participación</h3>
+            <p>Fomentar el bienestar físico y la participación activa de los aprendices en entornos saludables.</p>
+          </article>
+        </div>
+      </section>
+      <section id="diagrama-clases" class="view view-intro view-diagram" data-view="diagrama-clases" hidden>
+        <h1 class="section-title"><i class="bi bi-diagram-3 title-icon" aria-hidden="true"></i> Diagrama de Clases</h1>
+        <div class="intro-card diagram-card image-viewer" data-zoom>
+          <div class="zoom-controls" aria-label="Controles de zoom">
+            <button class="btn-zoom" data-action="in" title="Acercar"><i class="bi bi-zoom-in"></i></button>
+            <button class="btn-zoom" data-action="out" title="Alejar"><i class="bi bi-zoom-out"></i></button>
+            <button class="btn-zoom" data-action="reset" title="Restablecer"><i class="bi bi-arrow-counterclockwise"></i></button>
+          </div>
+          <img src="images/Clases_PNG.png" alt="Diagrama de Clases" class="viewer-img" />
+        </div>
+      </section>
+      <!-- Impactos del proyecto -->
+      <section id="impactos" class="view view-intro" data-view="impactos" hidden>
+        <h1 class="section-title"><i class="bi bi-lightning-charge title-icon" aria-hidden="true"></i> Impactos del proyecto</h1>
+        <div class="cards-grid">
+          <article class="intro-card legal-card impact-card">
+            <div class="card-icon"><i class="bi bi-cpu"></i></div>
+            <h3 class="card-title">Tecnológico</h3>
+            <p>
+              Moderniza la gestión con una solución adaptable y multiplataforma, replicable en otros centros.
+            </p>
+          </article>
+          <article class="intro-card legal-card impact-card">
+            <div class="card-icon"><i class="bi bi-people"></i></div>
+            <h3 class="card-title">Social</h3>
+            <p>
+              Ordena el acceso al gimnasio, fomenta hábitos saludables e inclusión de la comunidad.
+            </p>
+          </article>
+          <article class="intro-card legal-card impact-card">
+            <div class="card-icon"><i class="bi bi-tree"></i></div>
+            <h3 class="card-title">Ambiental</h3>
+            <p>
+              Digitaliza procesos para reducir papel y residuos, promoviendo una gestión sostenible.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="diagrama-er" class="view view-intro view-diagram" data-view="diagrama-er" hidden>
+        <h1 class="section-title"><i class="bi bi-diagram-3 title-icon" aria-hidden="true"></i> Modelo Relacional</h1>
+        <div class="intro-card diagram-card image-viewer" data-zoom>
+          <div class="zoom-controls" aria-label="Controles de zoom">
+            <button class="btn-zoom" data-action="in" title="Acercar"><i class="bi bi-zoom-in"></i></button>
+            <button class="btn-zoom" data-action="out" title="Alejar"><i class="bi bi-zoom-out"></i></button>
+            <button class="btn-zoom" data-action="reset" title="Restablecer"><i class="bi bi-arrow-counterclockwise"></i></button>
+          </div>
+          <img src="images/Modelo_Relacional.png" alt="Modelo Relacional" class="viewer-img" />
+        </div>
+      </section>
+      <!--
+        Anterior contenido Mermaid reemplazado por imágenes con controles de zoom.
+        Se mantiene comentario para referencia rápida.
+          erDiagram
+          USER {
+              int id_user PK
+              string name
+              string email
+              string password
+                int id_role FK
+                int id_group FK
+                int id_trainingcenter FK
+            }
+
+            ROLE {
+                int id_role PK
+                string name
+            }
+
+            GROUP {
+                int id_group PK
+                string token_number
+                int id_trainingprogram FK
+            }
+
+            TRAININGPROGRAM {
+                int id_trainingprogram PK
+                string token_number
+                string name
+                int id_trainingcenter FK
+            }
+
+            TRAININGCENTER {
+                int id_trainingcenter PK
+                string name
+            }
+
+            ACTIVITY {
+                int id_activity PK
+                string name
+                string description
+            }
+
+            INCOMERECORD {
+                int id_incomerecord PK
+                datetime start_date
+                datetime end_date
+                int id_user FK
+                int id_activity FK
+                int id_trainer FK
+            }
+
+            CALENDAR {
+                int id_calendar PK
+                date date
+                int id_user FK
+            }
+
+            APPRENTICERESERVES {
+                int id_apprenticereserves PK
+                int id_user FK
+                int id_calendar FK
+            }
+
+            MUSCLEGROUP {
+                int id_musclegroup PK
+                string name
+            }
+
+            EXERCISE {
+                int id_exercise PK
+                string name
+                int id_musclegroup FK
+            }
+
+            ROUTINE {
+                int id_routine PK
+                string name
+            }
+
+            EXERCISEROUTINE {
+                int id_exerciseroutine PK
+                int id_exercise FK
+                int id_routine FK
+            }
+
+            ROUTINEUSER {
+                int id_user FK
+                int id_routine FK
+            }
+
+            PROGRESSCONTROL {
+                int id_progresscontrol PK
+                int id_user FK
+            }
+
+            %% Relaciones
+            USER }o--|| ROLE : tiene
+            USER }o--|| GROUP : pertenece
+            USER }o--|| TRAININGCENTER : asignado
+            GROUP }o--|| TRAININGPROGRAM : incluye
+            TRAININGPROGRAM }o--|| TRAININGCENTER : pertenece
+
+            EXERCISE }o--|| MUSCLEGROUP : pertenece
+            EXERCISEROUTINE }o--|| EXERCISE : usa
+            EXERCISEROUTINE }o--|| ROUTINE : contiene
+            ROUTINEUSER }o--|| USER : asignado
+            ROUTINEUSER }o--|| ROUTINE : tiene
+            PROGRESSCONTROL }o--|| USER : pertenece
+
+            CALENDAR }o--|| USER : creado_por
+            APPRENTICERESERVES }o--|| USER : realiza
+            APPRENTICERESERVES }o--|| CALENDAR : reserva
+
+            INCOMERECORD }o--|| USER : registrado
+            INCOMERECORD }o--|| ACTIVITY : asociado
+            INCOMERECORD }o--|| USER : entrenador
+      -->
+    </main>
+
+    <!-- Footer fijo -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">GymTech SENA</div>
+    </footer>
+
+    <!-- Modal visor PDF -->
+    <div id="pdfModal" class="pdf-modal" role="dialog" aria-modal="true" aria-labelledby="pdfTitle" hidden>
+      <div class="pdf-dialog">
+        <div class="pdf-header">
+          <h2 id="pdfTitle">Documento PDF</h2>
+          <button id="pdfClose" class="pdf-close" aria-label="Cerrar" title="Cerrar">×</button>
+        </div>
+        <iframe class="pdf-iframe" src="documents/IEEE.V.8.30.pdf" title="Visor PDF" frameborder="0"></iframe>
+        <div class="pdf-footer">
+          <a href="documents/IEEE.V.8.30.pdf" target="_blank" rel="noopener" class="pdf-open-ext">Abrir en nueva pestaña</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menú radial flotante en esquina inferior derecha -->
+    <nav class="radial-menu" aria-label="Menú principal">
+      <button class="radial-toggle" aria-expanded="false" aria-label="Abrir menú">
+        <span class="plus-icon"><i class="bi bi-list"></i></span>
+        <span class="close-icon"><i class="bi bi-x-lg"></i></span>
+      </button>
+      <div class="radial-items" style="--count: 13">
+        <a href="#inicio" class="radial-item" style="--i: 0" data-label="Inicio" aria-label="Inicio"><span class="icon"><i class="bi bi-house-door"></i></span></a>
+        <a href="#introduccion" class="radial-item" style="--i: 1" data-label="Introducción" aria-label="Introducción"><span class="icon"><i class="bi bi-info-circle"></i></span></a>
+        <a href="#planteamiento" class="radial-item" style="--i: 2" data-label="Planteamiento del Problema" aria-label="Planteamiento del Problema"><span class="icon"><i class="bi bi-question-diamond-fill"></i></span></a>
+        <a href="#justificacion" class="radial-item" style="--i: 3" data-label="Justificación" aria-label="Justificación"><span class="icon"><i class="bi bi-clipboard-check"></i></span></a>
+        <a href="#marco-teorico" class="radial-item" style="--i: 4" data-label="Marco Teórico" aria-label="Marco Teórico"><span class="icon"><i class="bi bi-book"></i></span></a>
+        <a href="#marco-legal" class="radial-item" style="--i: 5" data-label="Marco Legal" aria-label="Marco Legal"><span class="icon"><i class="bi bi-file-earmark-text"></i></span></a>
+        <a href="#objetivos" class="radial-item" style="--i: 6" data-label="Objetivos" aria-label="Objetivos"><span class="icon"><i class="bi bi-flag"></i></span></a>
+        <a href="#funcionalidad" class="radial-item" style="--i: 7" data-label="Funcionalidad del Proyecto" aria-label="Funcionalidad del Proyecto"><span class="icon"><i class="bi bi-gear-wide-connected"></i></span></a>
+        <a href="#tabulacion" class="radial-item" style="--i: 8" data-label="Tabulación de información" aria-label="Tabulación de información"><span class="icon"><i class="bi bi-table"></i></span></a>
+        <a href="#necesidades" class="radial-item" style="--i: 9" data-label="Necesidades" aria-label="Necesidades"><span class="icon"><i class="bi bi-list-check"></i></span></a>
+        <a href="#diagrama-clases" class="radial-item" style="--i: 10" data-label="Diagrama de Clases" aria-label="Diagrama de Clases"><span class="icon"><i class="bi bi-diagram-3"></i></span></a>
+        <a href="#diagrama-er" class="radial-item" style="--i: 11" data-label="Modelo Relacional" aria-label="Modelo Relacional"><span class="icon"><i class="bi bi-diagram-3"></i></span></a>
+        <a href="#impactos" class="radial-item" style="--i: 12" data-label="Impactos del proyecto" aria-label="Impactos del proyecto"><span class="icon"><i class="bi bi-lightning-charge"></i></span></a>
+      </div>
+    </nav>
+
+    <!-- Mermaid JS para renderizar diagramas -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      // Inicializamos Mermaid con colores alineados al tema del sitio
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'base',
+        themeVariables: {
+          primaryColor: '#FFCC00DC',
+          edgeLabelBackground: '#0a192f',
+          fontFamily: 'Segoe UI, system-ui, sans-serif',
+          fontSize: '18px'
+        }
+      });
+    </script>
+    <script src="js/app.js"></script>
+  </body>
+  </html>
