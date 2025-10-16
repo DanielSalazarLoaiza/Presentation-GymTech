@@ -84,10 +84,6 @@
                 <div class="card-icon"><i class="bi bi-database"></i></div>
                 <div class="card-title">MySQL Workbench</div>
               </div>
-              <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-box"></i></div>
-                <div class="card-title">Composer</div>
-              </div>
             </div>
           </div>
 
@@ -96,20 +92,8 @@
             <h2 class="feature-subtitle"><i class="bi bi-cpu"></i> Tecnologías Implementadas</h2>
             <div class="card-grid" aria-label="Tecnologías Implementadas">
               <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-filetype-html"></i></div>
-                <div class="card-title">HTML</div>
-              </div>
-              <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-filetype-css"></i></div>
-                <div class="card-title">CSS</div>
-              </div>
-              <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-filetype-js"></i></div>
-                <div class="card-title">JavaScript</div>
-              </div>
-              <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-filetype-php"></i></div>
-                <div class="card-title">PHP</div>
+                <div class="card-icon"><i class="bi bi-code-square"></i></div>
+                <div class="card-title">Dart</div>
               </div>
               <div class="card-item" role="button" tabindex="0">
                 <div class="card-icon"><i class="bi bi-database"></i></div>
@@ -127,20 +111,20 @@
                 <div class="card-icon"><i class="bi bi-github"></i></div>
                 <div class="card-title">GitHub</div>
               </div>
+            </div>
+          </div>
+
+          <!-- FrameWorks -->
+          <div class="feature-block">
+            <h2 class="feature-subtitle"><i class="bi bi-box-seam"></i> FrameWorks</h2>
+            <div class="card-grid" aria-label="FrameWorks">
               <div class="card-item" role="button" tabindex="0">
                 <div class="card-icon"><i class="bi bi-phone"></i></div>
                 <div class="card-title">Flutter</div>
               </div>
-            </div>
-          </div>
-
-          <!-- Librerías utilizadas -->
-          <div class="feature-block">
-            <h2 class="feature-subtitle"><i class="bi bi-box-seam"></i> Librerías utilizadas</h2>
-            <div class="card-grid" aria-label="Librerías utilizadas">
               <div class="card-item" role="button" tabindex="0">
-                <div class="card-icon"><i class="bi bi-envelope-check"></i></div>
-                <div class="card-title">PHPMailer</div>
+                <div class="card-icon"><i class="bi bi-server"></i></div>
+                <div class="card-title">NodeJS</div>
               </div>
             </div>
           </div>
@@ -174,114 +158,11 @@
               </ol>
             </div>
           </div>
-
-          <!-- Patrón de Arquitectura del Software -->
-          <div class="feature-block">
-            <h2 class="feature-subtitle"><i class="bi bi-diagram-3"></i> Patrón de Arquitectura del Software</h2>
-            <p class="mt-text">
-              <strong>MVC (Modelo-Vista-Controlador):</strong> Es una arquitectura de software que separa la lógica del negocio, la interfaz de usuario y el control del flujo de la aplicación, permitiendo un desarrollo más organizado, escalable y fácil de mantener.
-            </p>
-            <figure class="feature-figure">
-              <img src="images/MVC.jpg" alt="Patrón MVC" />
-              <figcaption>Diagrama MVC</figcaption>
-            </figure>
-          </div>
-
-          <!-- Seguridad de la aplicación -->
-          <div class="feature-block">
-            <h2 class="feature-subtitle"><i class="bi bi-shield-lock"></i> Seguridad de la aplicación</h2>
-            <ul class="icon-list security-list">
-              <li><i class="bi bi-shield-check"></i> <strong>Modelo Vista Controlador:</strong> Se evita que la lógica sensible (como validaciones, autenticación, conexión a la base de datos) esté expuesta en las vistas, que son accesibles al usuario. Esto reduce el riesgo de manipulación directa del código o de datos.</li>
-              <li><i class="bi bi-database-lock"></i> <strong>Conexión a la BD con PDO:</strong> Prepara las consultas antes de ejecutarlas lo que evita inyecciones SQL.</li>
-              <li><i class="bi bi-slash-circle"></i> <strong>Bloque de enrutamiento por URL:</strong> No se permite enrutamiento a través de la URL sin haber iniciado sesión.</li>
-              <li><i class="bi bi-braces"></i> <strong>PDO:</strong> Uso de programación orientada a objetos para todo el manejo del software.</li>
-              <li><i class="bi bi-lock"></i> <strong>Sin registro de usuarios en el Login:</strong> La creación de los usuarios se maneja de manera interna lo que impide que cualquier persona pueda registrarse libremente.</li>
-            </ul>
-          </div>
-
         </div>
       </section>
-      <!-- Tabulación de información -->
-      <section id="tabulacion" class="view view-intro" data-view="tabulacion" hidden>
-        <h1 class="section-title"><i class="bi bi-ui-checks-grid title-icon" aria-hidden="true"></i> Tabulación de información</h1>
-        <div class="cards-grid qa-grid" aria-label="Preguntas y respuestas">
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-question-circle"></i></div>
-            <h3 class="card-title">¿Cuál es el objetivo principal del sistema que se desea desarrollar?</h3>
-            <p>Crear una herramienta software para mejorar la gestión y el control de los aprendices y sus horarios en el ambiente del gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-exclamation-triangle"></i></div>
-            <h3 class="card-title">¿Qué problemas actuales enfrenta la organización que este sistema busca resolver?</h3>
-            <p>Presenta dificultades por no contar con un sistema digital unificado, lo que genera pérdida de información, duplicidad de tareas y errores. Además, la falta de una plataforma multiplataforma limita el acceso y afecta la experiencia de usuarios y entrenadores.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-people"></i></div>
-            <h3 class="card-title">¿Cuál es el público objetivo del sistema?</h3>
-            <p>Los aprendices del SENA.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-graph-up"></i></div>
-            <h3 class="card-title">¿Qué beneficios espera obtener la organización con este sistema?</h3>
-            <p>Reducir el uso de papel y materiales físicos al digitalizar los procesos del gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-diagram-3"></i></div>
-            <h3 class="card-title">¿Cuál es el alcance inicial del proyecto?</h3>
-            <p>Promover un acceso más organizado al gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-gear"></i></div>
-            <h3 class="card-title">¿Qué funcionalidades específicas debe incluir el sistema?</h3>
-            <p>Registro de hora de entrada y salida, creación de usuarios, registros de control de progreso, gestión de roles, gestión de rutinas y ejercicios.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-input-cursor-text"></i></div>
-            <h3 class="card-title">¿Cómo debe manejar el sistema los datos de entrada?</h3>
-            <p>El sistema debe verificar que los campos obligatorios estén completos.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
-            <h3 class="card-title">¿Qué resultados o salidas debe generar el sistema?</h3>
-            <p>Verificación de ingreso de la persona que entrará al gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-journal-check"></i></div>
-            <h3 class="card-title">¿Cómo deben registrarse las operaciones realizadas por los usuarios?</h3>
-            <p>Los aprendices escanearan un código QR para que el encargado lo escanee y le pueda dar entrada al gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-building"></i></div>
-            <h3 class="card-title">¿Para qué centro de formación se solicita el software?</h3>
-            <p>El software se solicitaría para todo el centro de formación que hacen parte del SENA.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-card-list"></i></div>
-            <h3 class="card-title">¿Qué datos se necesita del aprendiz?</h3>
-            <p>Se necesitarán datos como el nombre completo del aprendiz, tipo de documento, número de documento de identidad, programa de formación, centro de formación, tipo de sangre, EPS, email, número telefónico, entre otros datos relevantes.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-people"></i></div>
-            <h3 class="card-title">¿Cuántas personas pueden ingresar al gimnasio al mismo tiempo?</h3>
-            <p>Un total de 30 personas.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-people"></i></div>
-            <h3 class="card-title">¿Quiénes pueden tener acceso al software?</h3>
-            <p>Los aprendices, entrenadores y el administrador del gimnasio.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-qr-code"></i></div>
-            <h3 class="card-title">¿Qué funciones requiere el software?</h3>
-            <p>El software debe permitir el ingreso mediante código QR para verificar que la persona que desea ingresar sea el mismo registrado en la aplicación.</p>
-          </article>
-          <article class="intro-card qa-card">
-            <div class="card-icon"><i class="bi bi-laptop"></i></div>
-            <h3 class="card-title">¿Para qué sistemas operativos se implementará el software?</h3>
-            <p>El software se dirigirá a cualquier sistema operativo y dispositivo que cuente con un navegador y acceso a internet.</p>
-          </article>
-        </div>
-      </section>
+
+
+      <!-- Justificación -->
       <section id="justificacion" class="view view-intro" data-view="justificacion" hidden>
         <h1 class="section-title"><i class="bi bi-clipboard-check title-icon" aria-hidden="true"></i> Justificación</h1>
         <div class="intro-card mt-card just-card">
@@ -305,6 +186,8 @@
           </div>
         </div>
       </section>
+
+      <!-- Planteamiento del problema -->
       <section id="planteamiento" class="view view-intro" data-view="planteamiento" hidden>
         <h1 class="section-title"><i class="bi bi-question-diamond-fill title-icon" aria-hidden="true"></i> Planteamiento del Problema</h1>
         <div class="intro-card mt-card">
@@ -329,6 +212,8 @@
           </div>
         </div>
       </section>
+
+      <!-- Introducción -->
       <section id="introduccion" class="view view-intro" data-view="introduccion" hidden>
         <h1 class="section-title"><i class="bi bi-info-circle title-icon" aria-hidden="true"></i> Introducción</h1>
         <div class="intro-card">
@@ -340,31 +225,8 @@
           </p>
         </div>
       </section>
-      <section id="marco-teorico" class="view view-intro" data-view="marco-teorico" hidden>
-        <h1 class="section-title"><i class="bi bi-book title-icon" aria-hidden="true"></i> Marco Teórico</h1>
-        <div class="intro-card mt-card">
-          <div class="mt-layout">
-            <div class="mt-illustration" aria-hidden="true">
-              <div class="mt-figure">
-                <i class="bi bi-book-half"></i>
-              </div>
-            </div>
-            <div class="mt-content">
-              <p class="mt-text">
-                La digitalización optimiza procesos y mejora la experiencia en entornos educativos. En el gimnasio del SENA, una plataforma centralizada ordena acceso y horarios, reduce errores y agiliza la gestión. Con metodologías ágiles, la solución se adapta al usuario y fortalece el bienestar institucional.
-              </p>
-              <div class="mt-chips" aria-label="Conceptos clave">
-                <span class="chip"><i class="bi bi-cpu"></i> Transformación Digital</span>
-                <span class="chip"><i class="bi bi-robot"></i> Automatización</span>
-                <span class="chip"><i class="bi bi-hdd-network"></i> Centralización</span>
-                <span class="chip"><i class="bi bi-graph-up"></i> Eficiencia</span>
-                <span class="chip"><i class="bi bi-people"></i> Experiencia de Usuario</span>
-                <span class="chip"><i class="bi bi-shield-check"></i> Seguridad</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+      <!-- Marco Legal -->
       <section id="marco-legal" class="view view-intro" data-view="marco-legal" hidden>
         <h1 class="section-title"><i class="bi bi-file-earmark-text title-icon" aria-hidden="true"></i> Marco Legal</h1>
         <div class="cards-grid">
@@ -391,8 +253,10 @@
           </article>
         </div>
       </section>
+
+      <!-- Objetivos y Funcionalidades -->
       <section id="objetivos" class="view view-intro" data-view="objetivos" hidden>
-        <h1 class="section-title"><i class="bi bi-flag title-icon" aria-hidden="true"></i> Objetivos</h1>
+        <h1 class="section-title"><i class="bi bi-flag title-icon" aria-hidden="true"></i> Objetivos y Funcionalidades</h1>
         <div class="cards-grid goals-grid">
           <article class="intro-card goal-card goal-general">
             <h3 class="card-title">Objetivo General</h3>
@@ -416,7 +280,7 @@
             </div>
           </article>
           <article class="intro-card goal-card goal-specific">
-            <h3 class="card-title">Objetivos Específicos</h3>
+            <h3 class="card-title">Funcionalidades</h3>
             <ul class="icon-list">
               <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Mejorar la gestión y el control de los aprendices y sus horarios en el ambiente del gimnasio.</span></li>
               <li><i class="bi bi-check2-circle" aria-hidden="true"></i><span>Integrar y relacionar la información de los aprendices en una plataforma centralizada para facilitar la administración de los miembros.</span></li>
@@ -431,6 +295,8 @@
           </article>
         </div>
       </section>
+
+      <!-- Necesidades -->
       <section id="necesidades" class="view view-intro" data-view="necesidades" hidden>
         <h1 class="section-title"><i class="bi bi-list-check title-icon" aria-hidden="true"></i> Necesidades</h1>
         <div class="cards-grid needs-grid">
@@ -445,11 +311,6 @@
             <p>Automatizar el control de usuarios, asistencia y asignación de rutinas.</p>
           </article>
           <article class="intro-card need-card">
-            <div class="card-icon"><i class="bi bi-person-check"></i></div>
-            <h3 class="card-title">Mejor Experiencia de Usuario</h3>
-            <p>Mejorar la experiencia de los aprendices, brindando acceso ágil, seguro y personalizado.</p>
-          </article>
-          <article class="intro-card need-card">
             <div class="card-icon"><i class="bi bi-hdd-network"></i></div>
             <h3 class="card-title">Centralización de Información</h3>
             <p>Centralizar la información para facilitar la toma de decisiones y reducir errores.</p>
@@ -460,14 +321,21 @@
             <p>Modernizar los procesos institucionales, alineados con la transformación digital del SENA.</p>
           </article>
           <article class="intro-card need-card">
+            <div class="card-icon"><i class="bi bi-person-check"></i></div>
+            <h3 class="card-title">Mejor Experiencia de Usuario</h3>
+            <p>Mejorar la experiencia de los aprendices, brindando acceso ágil, seguro y personalizado.</p>
+          </article>
+          <article class="intro-card need-card">
             <div class="card-icon"><i class="bi bi-heart-fill"></i></div>
             <h3 class="card-title">Bienestar y Participación</h3>
             <p>Fomentar el bienestar físico y la participación activa de los aprendices en entornos saludables.</p>
           </article>
         </div>
       </section>
+
+      <!-- Diagrama de Clases -->
       <section id="diagrama-clases" class="view view-intro view-diagram" data-view="diagrama-clases" hidden>
-        <h1 class="section-title"><i class="bi bi-diagram-3 title-icon" aria-hidden="true"></i> Diagrama de Clases</h1>
+        <h1 class="section-title"><i class="bi bi-diagram-2 title-icon" aria-hidden="true"></i> Diagrama de Clases</h1>
         <div class="intro-card diagram-card image-viewer" data-zoom>
           <div class="zoom-controls" aria-label="Controles de zoom">
             <button class="btn-zoom" data-action="in" title="Acercar"><i class="bi bi-zoom-in"></i></button>
@@ -477,33 +345,8 @@
           <img src="images/Clases_PNG.png" alt="Diagrama de Clases" class="viewer-img" />
         </div>
       </section>
-      <!-- Impactos del proyecto -->
-      <section id="impactos" class="view view-intro" data-view="impactos" hidden>
-        <h1 class="section-title"><i class="bi bi-lightning-charge title-icon" aria-hidden="true"></i> Impactos del proyecto</h1>
-        <div class="cards-grid">
-          <article class="intro-card legal-card impact-card">
-            <div class="card-icon"><i class="bi bi-cpu"></i></div>
-            <h3 class="card-title">Tecnológico</h3>
-            <p>
-              Moderniza la gestión con una solución adaptable y multiplataforma, replicable en otros centros.
-            </p>
-          </article>
-          <article class="intro-card legal-card impact-card">
-            <div class="card-icon"><i class="bi bi-people"></i></div>
-            <h3 class="card-title">Social</h3>
-            <p>
-              Ordena el acceso al gimnasio, fomenta hábitos saludables e inclusión de la comunidad.
-            </p>
-          </article>
-          <article class="intro-card legal-card impact-card">
-            <div class="card-icon"><i class="bi bi-tree"></i></div>
-            <h3 class="card-title">Ambiental</h3>
-            <p>
-              Digitaliza procesos para reducir papel y residuos, promoviendo una gestión sostenible.
-            </p>
-          </article>
-        </div>
-      </section>
+
+      <!-- Modelo Relacional -->
       <section id="diagrama-er" class="view view-intro view-diagram" data-view="diagrama-er" hidden>
         <h1 class="section-title"><i class="bi bi-diagram-3 title-icon" aria-hidden="true"></i> Modelo Relacional</h1>
         <div class="intro-card diagram-card image-viewer" data-zoom>
@@ -515,124 +358,6 @@
           <img src="images/Modelo_Relacional.png" alt="Modelo Relacional" class="viewer-img" />
         </div>
       </section>
-      <!--
-        Anterior contenido Mermaid reemplazado por imágenes con controles de zoom.
-        Se mantiene comentario para referencia rápida.
-          erDiagram
-          USER {
-              int id_user PK
-              string name
-              string email
-              string password
-                int id_role FK
-                int id_group FK
-                int id_trainingcenter FK
-            }
-
-            ROLE {
-                int id_role PK
-                string name
-            }
-
-            GROUP {
-                int id_group PK
-                string token_number
-                int id_trainingprogram FK
-            }
-
-            TRAININGPROGRAM {
-                int id_trainingprogram PK
-                string token_number
-                string name
-                int id_trainingcenter FK
-            }
-
-            TRAININGCENTER {
-                int id_trainingcenter PK
-                string name
-            }
-
-            ACTIVITY {
-                int id_activity PK
-                string name
-                string description
-            }
-
-            INCOMERECORD {
-                int id_incomerecord PK
-                datetime start_date
-                datetime end_date
-                int id_user FK
-                int id_activity FK
-                int id_trainer FK
-            }
-
-            CALENDAR {
-                int id_calendar PK
-                date date
-                int id_user FK
-            }
-
-            APPRENTICERESERVES {
-                int id_apprenticereserves PK
-                int id_user FK
-                int id_calendar FK
-            }
-
-            MUSCLEGROUP {
-                int id_musclegroup PK
-                string name
-            }
-
-            EXERCISE {
-                int id_exercise PK
-                string name
-                int id_musclegroup FK
-            }
-
-            ROUTINE {
-                int id_routine PK
-                string name
-            }
-
-            EXERCISEROUTINE {
-                int id_exerciseroutine PK
-                int id_exercise FK
-                int id_routine FK
-            }
-
-            ROUTINEUSER {
-                int id_user FK
-                int id_routine FK
-            }
-
-            PROGRESSCONTROL {
-                int id_progresscontrol PK
-                int id_user FK
-            }
-
-            %% Relaciones
-            USER }o--|| ROLE : tiene
-            USER }o--|| GROUP : pertenece
-            USER }o--|| TRAININGCENTER : asignado
-            GROUP }o--|| TRAININGPROGRAM : incluye
-            TRAININGPROGRAM }o--|| TRAININGCENTER : pertenece
-
-            EXERCISE }o--|| MUSCLEGROUP : pertenece
-            EXERCISEROUTINE }o--|| EXERCISE : usa
-            EXERCISEROUTINE }o--|| ROUTINE : contiene
-            ROUTINEUSER }o--|| USER : asignado
-            ROUTINEUSER }o--|| ROUTINE : tiene
-            PROGRESSCONTROL }o--|| USER : pertenece
-
-            CALENDAR }o--|| USER : creado_por
-            APPRENTICERESERVES }o--|| USER : realiza
-            APPRENTICERESERVES }o--|| CALENDAR : reserva
-
-            INCOMERECORD }o--|| USER : registrado
-            INCOMERECORD }o--|| ACTIVITY : asociado
-            INCOMERECORD }o--|| USER : entrenador
-      -->
     </main>
 
     <!-- Footer fijo -->
@@ -660,20 +385,17 @@
         <span class="plus-icon"><i class="bi bi-list"></i></span>
         <span class="close-icon"><i class="bi bi-x-lg"></i></span>
       </button>
-      <div class="radial-items" style="--count: 13">
+      <div class="radial-items" style="--count: 10">
         <a href="#inicio" class="radial-item" style="--i: 0" data-label="Inicio" aria-label="Inicio"><span class="icon"><i class="bi bi-house-door"></i></span></a>
         <a href="#introduccion" class="radial-item" style="--i: 1" data-label="Introducción" aria-label="Introducción"><span class="icon"><i class="bi bi-info-circle"></i></span></a>
         <a href="#planteamiento" class="radial-item" style="--i: 2" data-label="Planteamiento del Problema" aria-label="Planteamiento del Problema"><span class="icon"><i class="bi bi-question-diamond-fill"></i></span></a>
         <a href="#justificacion" class="radial-item" style="--i: 3" data-label="Justificación" aria-label="Justificación"><span class="icon"><i class="bi bi-clipboard-check"></i></span></a>
-        <a href="#marco-teorico" class="radial-item" style="--i: 4" data-label="Marco Teórico" aria-label="Marco Teórico"><span class="icon"><i class="bi bi-book"></i></span></a>
-        <a href="#marco-legal" class="radial-item" style="--i: 5" data-label="Marco Legal" aria-label="Marco Legal"><span class="icon"><i class="bi bi-file-earmark-text"></i></span></a>
-        <a href="#objetivos" class="radial-item" style="--i: 6" data-label="Objetivos" aria-label="Objetivos"><span class="icon"><i class="bi bi-flag"></i></span></a>
-        <a href="#funcionalidad" class="radial-item" style="--i: 7" data-label="Funcionalidad del Proyecto" aria-label="Funcionalidad del Proyecto"><span class="icon"><i class="bi bi-gear-wide-connected"></i></span></a>
-        <a href="#tabulacion" class="radial-item" style="--i: 8" data-label="Tabulación de información" aria-label="Tabulación de información"><span class="icon"><i class="bi bi-table"></i></span></a>
-        <a href="#necesidades" class="radial-item" style="--i: 9" data-label="Necesidades" aria-label="Necesidades"><span class="icon"><i class="bi bi-list-check"></i></span></a>
-        <a href="#diagrama-clases" class="radial-item" style="--i: 10" data-label="Diagrama de Clases" aria-label="Diagrama de Clases"><span class="icon"><i class="bi bi-diagram-3"></i></span></a>
-        <a href="#diagrama-er" class="radial-item" style="--i: 11" data-label="Modelo Relacional" aria-label="Modelo Relacional"><span class="icon"><i class="bi bi-diagram-3"></i></span></a>
-        <a href="#impactos" class="radial-item" style="--i: 12" data-label="Impactos del proyecto" aria-label="Impactos del proyecto"><span class="icon"><i class="bi bi-lightning-charge"></i></span></a>
+        <a href="#marco-legal" class="radial-item" style="--i: 4" data-label="Marco Legal" aria-label="Marco Legal"><span class="icon"><i class="bi bi-file-earmark-text"></i></span></a>
+        <a href="#objetivos" class="radial-item" style="--i: 5" data-label="Objetivos y Funcionalidades" aria-label="Objetivos y Funcionalidades"><span class="icon"><i class="bi bi-flag"></i></span></a>
+        <a href="#funcionalidad" class="radial-item" style="--i: 6" data-label="Funcionalidad del Proyecto" aria-label="Funcionalidad del Proyecto"><span class="icon"><i class="bi bi-gear-wide-connected"></i></span></a>
+        <a href="#necesidades" class="radial-item" style="--i: 7" data-label="Necesidades" aria-label="Necesidades"><span class="icon"><i class="bi bi-list-check"></i></span></a>
+        <a href="#diagrama-clases" class="radial-item" style="--i: 8" data-label="Diagrama de Clases" aria-label="Diagrama de Clases"><span class="icon"><i class="bi bi-diagram-2"></i></span></a>
+        <a href="#diagrama-er" class="radial-item" style="--i: 9" data-label="Modelo Relacional" aria-label="Modelo Relacional"><span class="icon"><i class="bi bi-diagram-3"></i></span></a>
       </div>
     </nav>
 
